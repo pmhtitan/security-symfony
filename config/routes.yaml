@@ -1,3 +1,10 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+logout:
+    path: /logout
+
+producto_index:
+    path: /index
+    controller: App\Controller\ProductoController::index
